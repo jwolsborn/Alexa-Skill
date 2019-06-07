@@ -15,3 +15,5 @@ an invocation name that is used.  I used the invocation name 'blazer skill'.  So
 It's important to note that the user defined intents are programmed into this lambda, so when designing intents the same intent names need
 to be used in the Alexa Developer Console.
 
+For testing I simply did manual testing in a video that was included with the turnin of this project as it was difficult to create my own
+Alexa request objects as they are sent as JSON's from Amazon.
