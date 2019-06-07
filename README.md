@@ -17,3 +17,6 @@ to be used in the Alexa Developer Console.
 
 For testing I simply did manual testing in a video that was included with the turnin of this project as it was difficult to create my own
 Alexa request objects as they are sent as JSON's from Amazon.
+
+This project was far more difficult than I had originally expected.  The original goal was to create a webscraper that would seed the lambda with the desired sport stats.  However, when I attempted to combine the two parts I found out that the webscraper crate and the aws
+crate both used different versions of the same sub-crate.  This posed a problem.  Due to to the deadline I decided it would be best to just have two parts that worked seperately.  I did enjoy connecting Rust, traditionally known as as system language, to something like AWS which is so pervasive now in our industry.
